@@ -1,0 +1,57 @@
+{
+  "copied_without_algorithm_changes": [
+    {
+      "file": "lab_suite.py",
+      "source_sha256": "531ac276c7a3cb3409fa0f806dbe3a56c5f02e41eaf5aa7729f5d438a0b4ae3e"
+    },
+    {
+      "file": "combined_panel.py",
+      "source_sha256": "18e70bf5082c9a774fd3585ea05a6c011f4512965bba60bb2b3f321c67c944e8"
+    },
+    {
+      "file": "candidate_rules.py",
+      "source_sha256": "3ad88c4bb9da73cd00f727e1ec110a9813ac18dad55b059a2031dacc5e9537e9"
+    },
+    {
+      "file": "ecg_analysis.py",
+      "source_sha256": "83367ed63e921bb89b671b868faf3f6ebaae0235773aa3c05238f06f400630de"
+    },
+    {
+      "file": "airbag_bridge.py",
+      "source_sha256": "7d18a00497a578681fc2924012537ae5e8babaa9bbd979d215ce1741126c6949"
+    },
+    {
+      "file": "wifi_transport.py",
+      "source_sha256": "7155271a3f1104c4683914440aa97cd17e617424108333634b0292b838643351"
+    },
+    {
+      "file": "ui_language.py",
+      "source_sha256": "b9f2130070c656bdd9018308f0c004fc6bb5c60bea39563f1bb020f3f1bbd236"
+    },
+    {
+      "file": "history_waveforms.py",
+      "source_sha256": "2282648c6a5383dea7353a0aba2a7c7101131351dd547f54a418bd70b369ff26"
+    },
+    {
+      "file": "pressure_demo.py",
+      "source_sha256": "4cb35b64546be203d46454886bcf3229075dd0fc4210a3ced359d2ab0747e51e"
+    },
+    {
+      "file": "launch_jupyter.py",
+      "source_sha256": "cc3c63e6a2b9703d13bdd06f9a0d47baa1ce197002470e745c2375c9025c3f9d"
+    },
+    {
+      "file": "启动Jupyter.command",
+      "source_sha256": "45e3bf687448ba269ed39cabfc87c286a8e7b09c202b66a74d8895152c031a15"
+    },
+    {
+      "file": "requirements-tested-macos-arm64.txt",
+      "source_sha256": "3d53b050ee95a4cfc00396aa62dc2da2c067e51ac0b31bfeb21b8e7dc8bbd57e"
+    }
+  ],
+  "optimizer_source": "analysis/20261102_function_models/fit_models.py",
+  "optimizer_adapter": "Explicit gradient_tolerance argument; optimizer equations unchanged",
+  "source_recording_hashes_verified": 53,
+  "history_packaging_adjustment": "Removed the original screenshot capture identifier; no raw waveform or capture timestamp is embedded",
+  "optional_raw_regression": "Reference lookup uses source-file SHA-256 instead of private capture identifiers"
+}

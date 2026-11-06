@@ -1,0 +1,60 @@
+{
+  "pressure": {
+    "intercept": -3.978527880298391,
+    "coefficients": [
+      0.11678118693302227
+    ]
+  },
+  "imu": {
+    "intercept": -0.14437139050872083,
+    "coefficients": [
+      0.6497832685694458,
+      0.773940397862071
+    ]
+  },
+  "ecg": {
+    "intercept": -7.04501043433464,
+    "coefficients": [
+      0.08859992873389841
+    ]
+  },
+  "pressure_cutoff": 34.06822609689867,
+  "motion_score": {
+    "name": "S_rest_v1",
+    "A0_g": 0.008288212278579772,
+    "G0_deg_per_s": 8.203503753066949,
+    "acceleration_exponent": 0.6497832685694458,
+    "rotation_exponent": 0.773940397862071,
+    "candidate_boundary": 5.103498081984049,
+    "definition": "(A/A0)^acceleration_exponent * (G/G0)^rotation_exponent; A=population std of acceleration magnitude; G=RMS of angular-speed magnitude; use whole capture as trained.",
+    "normal_baseline_n": 8,
+    "warning": "A new rest-only score, not the previous all-action Q. Do not replace Q threshold alone."
+  },
+  "ecg_fitted_cutoff": 79.51485441363806,
+  "pressure_loo": {
+    "detected_simulated": 4,
+    "missed_simulated": 0,
+    "flagged_normal": 0,
+    "unflagged_normal": 7,
+    "simulated_n": 4,
+    "normal_n": 7,
+    "simulated_recall": 1.0,
+    "normal_false_positive_fraction": 0.0
+  },
+  "imu_loo": {
+    "detected_simulated": 2,
+    "missed_simulated": 1,
+    "flagged_normal": 1,
+    "unflagged_normal": 7,
+    "simulated_n": 3,
+    "normal_n": 8,
+    "simulated_recall": 0.6666666666666666,
+    "normal_false_positive_fraction": 0.125
+  },
+  "ecg_loo": {
+    "external_flagged": 7,
+    "external_missed": 1,
+    "local_normal_flagged": 0,
+    "local_normal_unflagged": 20
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tests_run": 41,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "successful": true,
+  "skipped_reasons": [
+    "Optional private waveform dataset is not imported"
+  ],
+  "validation_scope": "Software, synthetic signals, virtual serial/HTTP and saved coefficient regression; no hardware commands."
+}

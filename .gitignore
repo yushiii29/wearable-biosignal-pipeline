@@ -1,0 +1,16 @@
+.venv/
+.runtime/
+.jupyter/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+data/runs/
+local_private/
+history_exports/
+历史测试回看/
+analysis/20261105_original_ui_waveforms/
+*.log
+*.tmp

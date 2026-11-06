@@ -1,0 +1,890 @@
+{
+  "records": [
+    {
+      "kind": "imu",
+      "group": "simulated",
+      "features": {
+        "accel_sd": 0.13536974373384839,
+        "gyro_rms": 107.67402074438922
+      },
+      "id": "capture_001",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 498,
+      "duration_s": 19.883000000000038
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 63.8
+      },
+      "id": "capture_002",
+      "participant": "participant_02",
+      "condition": "Seated ECG fitting check",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4931,
+      "duration_s": 20.162000000000006,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 57.0
+      },
+      "id": "capture_003",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4913,
+      "duration_s": 20.098999999999997,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 55.4
+      },
+      "id": "capture_004",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4902,
+      "duration_s": 20.048000000000016,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 58.8
+      },
+      "id": "capture_005",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 1508,
+      "duration_s": 6.139000000000003,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 62.1
+      },
+      "id": "capture_006",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4927,
+      "duration_s": 20.11099999999999,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": null
+      },
+      "id": "capture_007",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4903,
+      "duration_s": 20.06699999999998,
+      "ecg_status": "unavailable"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 60.0
+      },
+      "id": "capture_008",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4893,
+      "duration_s": 20.01800000000003,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 56.6
+      },
+      "id": "capture_009",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4900,
+      "duration_s": 20.047999999999945,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 61.1
+      },
+      "id": "capture_010",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4898,
+      "duration_s": 20.037000000000035,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 60.1
+      },
+      "id": "capture_011",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4910,
+      "duration_s": 20.09899999999999,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 57.3
+      },
+      "id": "capture_012",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4889,
+      "duration_s": 20.038999999999987,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 75.6
+      },
+      "id": "capture_013",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4903,
+      "duration_s": 20.070999999999913,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 57.4
+      },
+      "id": "capture_014",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4918,
+      "duration_s": 20.105000000000018,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 62.3
+      },
+      "id": "capture_015",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4918,
+      "duration_s": 20.160000000000082,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 61.5
+      },
+      "id": "capture_016",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4914,
+      "duration_s": 20.121000000000095,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 56.1
+      },
+      "id": "capture_017",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4895,
+      "duration_s": 20.038999999999987,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 58.4
+      },
+      "id": "capture_018",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4931,
+      "duration_s": 20.166000000000054,
+      "ecg_status": "estimated_partial"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 63.2
+      },
+      "id": "capture_019",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4897,
+      "duration_s": 20.050000000000068,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 58.8
+      },
+      "id": "capture_020",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4917,
+      "duration_s": 20.112999999999943,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 56.8
+      },
+      "id": "capture_021",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4918,
+      "duration_s": 20.116999999999962,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "ecg",
+      "group": "normal",
+      "features": {
+        "heart_rate": 59.1
+      },
+      "id": "capture_022",
+      "participant": "participant_02",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 4882,
+      "duration_s": 20.014999999999986,
+      "ecg_status": "estimated_full"
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.13769999440293237,
+        "gyro_rms": 108.55676849191948
+      },
+      "id": "capture_023",
+      "participant": "participant_01",
+      "condition": "Slow walking",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 499,
+      "duration_s": 20.021
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.18915910804933575,
+        "gyro_rms": 137.97668917690146
+      },
+      "id": "capture_024",
+      "participant": "participant_01",
+      "condition": "Slow walking",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 500,
+      "duration_s": 20.03200000000001
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.1350172290058345,
+        "gyro_rms": 101.7945465650146
+      },
+      "id": "capture_025",
+      "participant": "participant_01",
+      "condition": "Slow walking",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 500,
+      "duration_s": 20.033999999999992
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.24975143565212324,
+        "gyro_rms": 107.29281958758258
+      },
+      "id": "capture_026",
+      "participant": "participant_01",
+      "condition": "Slow walking",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 500,
+      "duration_s": 20.05899999999997
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.7006117191859185,
+        "gyro_rms": 135.4647157329028
+      },
+      "id": "capture_027",
+      "participant": "participant_01",
+      "condition": "Jogging",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 498,
+      "duration_s": 19.971000000000004
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.8885798994429238,
+        "gyro_rms": 161.76024631155263
+      },
+      "id": "capture_028",
+      "participant": "participant_01",
+      "condition": "Small jumps",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 500,
+      "duration_s": 20.057000000000016
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.012371356636329772,
+        "gyro_rms": 8.624086626943406
+      },
+      "id": "capture_029",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 498,
+      "duration_s": 20.0
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.004401665569705672,
+        "gyro_rms": 1.4106935446323323
+      },
+      "id": "capture_030",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 499,
+      "duration_s": 20.015999999999963
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.058634973937657674,
+        "gyro_rms": 41.53943747564931
+      },
+      "id": "capture_031",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 499,
+      "duration_s": 20.001999999999953
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.0024881510322010965,
+        "gyro_rms": 1.391748465373062
+      },
+      "id": "capture_032",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 498,
+      "duration_s": 19.976
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.007496775184056602,
+        "gyro_rms": 9.820365162600936
+      },
+      "id": "capture_033",
+      "participant": "participant_01",
+      "condition": "Standing, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 498,
+      "duration_s": 19.978999999999928
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.00666880346007862,
+        "gyro_rms": 7.782920879190491
+      },
+      "id": "capture_034",
+      "participant": "participant_01",
+      "condition": "Standing, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 499,
+      "duration_s": 20.020999999999958
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.009079649373102941,
+        "gyro_rms": 11.996904825615664
+      },
+      "id": "capture_035",
+      "participant": "participant_01",
+      "condition": "Standing, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 500,
+      "duration_s": 20.05300000000011
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.0944499636147551,
+        "gyro_rms": 66.13028434132494
+      },
+      "id": "capture_036",
+      "participant": "participant_01",
+      "condition": "Slow walking",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 499,
+      "duration_s": 20.010999999999967
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.6017926686303668,
+        "gyro_rms": 101.70147955939322
+      },
+      "id": "capture_037",
+      "participant": "participant_01",
+      "condition": "Jogging",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 500,
+      "duration_s": 20.034999999999854
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.7220486592866473,
+        "gyro_rms": 65.04673431277237
+      },
+      "id": "capture_038",
+      "participant": "participant_01",
+      "condition": "Small jumps",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 499,
+      "duration_s": 20.026000000000067
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 15.28662420383556,
+        "pressure_peak": 597.0,
+        "pulse_count": 5,
+        "count_rate": 14.932059130954237
+      },
+      "id": "capture_039",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 402,
+      "duration_s": 20.090999999999894,
+      "pressure_sensitivity": {
+        "0.1": 25.53191489364024,
+        "0.2": 15.28662420383556,
+        "0.3": 10.810810810820643
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 12.000000000010914,
+        "pressure_peak": 207.0,
+        "pulse_count": 4,
+        "count_rate": 11.966493817311504
+      },
+      "id": "capture_040",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 401,
+      "duration_s": 20.05600000000004,
+      "pressure_sensitivity": {
+        "0.1": 12.000000000010914,
+        "0.2": 12.000000000010914,
+        "0.3": 12.000000000010914
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 21.238938053116662,
+        "pressure_peak": 544.0,
+        "pulse_count": 7,
+        "count_rate": 20.890325789604557
+      },
+      "id": "capture_041",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 402,
+      "duration_s": 20.105000000000018,
+      "pressure_sensitivity": {
+        "0.1": 22.222222222242433,
+        "0.2": 21.238938053116662,
+        "0.3": 20.338983050865956
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "simulated",
+      "features": {
+        "pressure_rate": 46.15384615388813,
+        "pressure_peak": 911.0,
+        "pulse_count": 14,
+        "count_rate": 41.918259394181376
+      },
+      "id": "capture_042",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 401,
+      "duration_s": 20.038999999999987,
+      "pressure_sensitivity": {
+        "0.1": 50.000000000045475,
+        "0.2": 46.15384615388813,
+        "0.3": 26.37362637365036
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "simulated",
+      "features": {
+        "pressure_rate": 46.15384615388813,
+        "pressure_peak": 653.0,
+        "pulse_count": 12,
+        "count_rate": 35.928143712574915
+      },
+      "id": "capture_043",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 401,
+      "duration_s": 20.039999999999964,
+      "pressure_sensitivity": {
+        "0.1": 63.15789473689955,
+        "0.2": 46.15384615388813,
+        "0.3": 29.268292682953447
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 30.000000000027285,
+        "pressure_peak": 877.0,
+        "pulse_count": 8,
+        "count_rate": 24.0048009601922
+      },
+      "id": "capture_044",
+      "participant": "participant_01",
+      "condition": "Slow walking",
+      "resting_context": false,
+      "notes": "",
+      "sample_count": 400,
+      "duration_s": 19.995999999999867,
+      "pressure_sensitivity": {
+        "0.1": 33.80281690143919,
+        "0.2": 30.000000000027285,
+        "0.3": 38.70967741939005
+      }
+    },
+    {
+      "kind": "imu",
+      "group": "normal",
+      "features": {
+        "accel_sd": 0.043604205435642154,
+        "gyro_rms": 7.6825844972958945
+      },
+      "id": "capture_045",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 501,
+      "duration_s": 20.094
+    },
+    {
+      "kind": "imu",
+      "group": "simulated",
+      "features": {
+        "accel_sd": 0.03438937497543465,
+        "gyro_rms": 31.751376089661733
+      },
+      "id": "capture_046",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 499,
+      "duration_s": 20.03099999999999
+    },
+    {
+      "kind": "imu",
+      "group": "simulated",
+      "features": {
+        "accel_sd": 0.09399188201262076,
+        "gyro_rms": 61.9372482561904
+      },
+      "id": "capture_047",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 498,
+      "duration_s": 19.972999999999985
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 21.428571428572646,
+        "pressure_peak": 739.0,
+        "pulse_count": 7,
+        "count_rate": 20.95494686424188
+      },
+      "id": "capture_048",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 401,
+      "duration_s": 20.043,
+      "pressure_sensitivity": {
+        "0.1": 21.428571428572646,
+        "0.2": 21.428571428572646,
+        "0.3": 21.428571428572646
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 24.74226804123852,
+        "pressure_peak": 570.0,
+        "pulse_count": 7,
+        "count_rate": 21.05685350446205
+      },
+      "id": "capture_049",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 399,
+      "duration_s": 19.945999999999998,
+      "pressure_sensitivity": {
+        "0.1": 24.74226804123852,
+        "0.2": 24.74226804123852,
+        "0.3": 24.74226804123852
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 21.428571428566556,
+        "pressure_peak": 1113.0,
+        "pulse_count": 5,
+        "count_rate": 14.883905536812867
+      },
+      "id": "capture_050",
+      "participant": "participant_01",
+      "condition": "Seated, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 403,
+      "duration_s": 20.15599999999999,
+      "pressure_sensitivity": {
+        "0.1": 22.22222222221717,
+        "0.2": 21.428571428566556,
+        "0.3": 14.634146341460088
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "normal",
+      "features": {
+        "pressure_rate": 27.27272727272107,
+        "pressure_peak": 688.0,
+        "pulse_count": 8,
+        "count_rate": 23.9940014996251
+      },
+      "id": "capture_051",
+      "participant": "participant_01",
+      "condition": "Standing, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 400,
+      "duration_s": 20.004999999999995,
+      "pressure_sensitivity": {
+        "0.1": 26.373626373620375,
+        "0.2": 27.27272727272107,
+        "0.3": 27.27272727272107
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "simulated",
+      "features": {
+        "pressure_rate": 42.10526315788516,
+        "pressure_peak": 1682.0,
+        "pulse_count": 5,
+        "count_rate": 15.027048687637748
+      },
+      "id": "capture_052",
+      "participant": "participant_01",
+      "condition": "Standing, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 399,
+      "duration_s": 19.964,
+      "pressure_sensitivity": {
+        "0.1": 42.10526315788516,
+        "0.2": 42.10526315788516,
+        "0.3": 42.85714285713311
+      }
+    },
+    {
+      "kind": "pressure",
+      "group": "simulated",
+      "features": {
+        "pressure_rate": 57.14285714284415,
+        "pressure_peak": 543.0,
+        "pulse_count": 12,
+        "count_rate": 36.06130421716917
+      },
+      "id": "capture_053",
+      "participant": "participant_01",
+      "condition": "Standing, natural breathing",
+      "resting_context": true,
+      "notes": "",
+      "sample_count": 399,
+      "duration_s": 19.966000000000008,
+      "pressure_sensitivity": {
+        "0.1": 61.53846153844755,
+        "0.2": 57.14285714284415,
+        "0.3": 42.85714285713311
+      }
+    }
+  ],
+  "label_semantics": "normal task vs self-simulated action; no confirmed panic labels",
+  "feature_units": {
+    "heart_rate": "beats/min",
+    "pressure_rate": "detected pulses/min",
+    "accel_sd": "g",
+    "gyro_rms": "deg/s"
+  }
+}

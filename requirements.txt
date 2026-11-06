@@ -1,0 +1,7 @@
+jupyterlab
+matplotlib
+numpy
+pyserial
+ipywidgets
+nbclient
+nbformat

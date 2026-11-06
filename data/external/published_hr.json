@@ -1,0 +1,111 @@
+{
+  "observations": [
+    {
+      "subject": 4,
+      "episode": 1,
+      "hr_max_bpm": 100,
+      "concurrent_activity_reported": false,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    },
+    {
+      "subject": 4,
+      "episode": 2,
+      "hr_max_bpm": 90,
+      "concurrent_activity_reported": false,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    },
+    {
+      "subject": 5,
+      "episode": 1,
+      "hr_max_bpm": 80,
+      "concurrent_activity_reported": false,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    },
+    {
+      "subject": 6,
+      "episode": 1,
+      "hr_max_bpm": 135,
+      "concurrent_activity_reported": true,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    },
+    {
+      "subject": 7,
+      "episode": 1,
+      "hr_max_bpm": 90,
+      "concurrent_activity_reported": false,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    },
+    {
+      "subject": 8,
+      "episode": 1,
+      "hr_max_bpm": 115,
+      "concurrent_activity_reported": false,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    },
+    {
+      "subject": 9,
+      "episode": 1,
+      "hr_max_bpm": 125,
+      "concurrent_activity_reported": false,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    },
+    {
+      "subject": 10,
+      "episode": 1,
+      "hr_max_bpm": 148,
+      "concurrent_activity_reported": false,
+      "source": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+      "doi": "10.1016/0022-3956(82)90004-8",
+      "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf",
+      "value_semantics": "Maximum HR during reported panic episode; not a resting baseline or a project sensor measurement",
+      "resting_confirmed": false,
+      "used_for_fitting": true,
+      "fit_scope": "Exploratory source-confounded ECG comparison only"
+    }
+  ],
+  "citation": "Taylor et al., Ambulatory heart rate changes during panic attacks, Table 1, p.264",
+  "doi": "10.1016/0022-3956(82)90004-8",
+  "source_url": "https://labs.la.utexas.edu/telch/files/2015/02/Ambulatory-Heart-Rate.pdf"
+}

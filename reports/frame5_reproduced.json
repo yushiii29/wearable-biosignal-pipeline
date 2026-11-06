@@ -1,0 +1,544 @@
+{
+  "profile": "frame5_offline_rest_v1",
+  "counts": {
+    "local_captures": 53,
+    "local_captures_with_feature": 52,
+    "resting_captures": 43,
+    "resting_usable_feature_records": 42,
+    "external_hr_values": 8,
+    "all_usable_values_plus_external": 60,
+    "local_ecg_with_hr": 20,
+    "rest_pressure": 11,
+    "rest_imu": 11
+  },
+  "pressure": {
+    "model": {
+      "intercept": -3.978527880298391,
+      "coefficients": [
+        0.11678118693302227
+      ],
+      "lambda": 1.0,
+      "standardized_coefficients": [
+        -0.4225034421351274,
+        1.6523591029975526
+      ],
+      "training_mean": [
+        30.450319366960684
+      ],
+      "training_sd": [
+        14.149189149321057
+      ],
+      "gradient_max_abs": 4.356103699976188e-09,
+      "iterations": 5,
+      "fit_converged": true,
+      "label_semantics": "0 normal; 1 self-simulated action. Margin is NOT panic probability."
+    },
+    "feature_names": [
+      "pressure_rate"
+    ],
+    "transform": "raw",
+    "capture_ids": [
+      "capture_039",
+      "capture_040",
+      "capture_041",
+      "capture_042",
+      "capture_043",
+      "capture_048",
+      "capture_049",
+      "capture_050",
+      "capture_051",
+      "capture_052",
+      "capture_053"
+    ],
+    "training_metrics": {
+      "detected_simulated": 4,
+      "missed_simulated": 0,
+      "flagged_normal": 0,
+      "unflagged_normal": 7,
+      "simulated_n": 4,
+      "normal_n": 7,
+      "simulated_recall": 1.0,
+      "normal_false_positive_fraction": 0.0
+    },
+    "loo_metrics": {
+      "detected_simulated": 4,
+      "missed_simulated": 0,
+      "flagged_normal": 0,
+      "unflagged_normal": 7,
+      "simulated_n": 4,
+      "normal_n": 7,
+      "simulated_recall": 1.0,
+      "normal_false_positive_fraction": 0.0
+    },
+    "loo_predictions": [
+      {
+        "capture_id": "capture_039",
+        "group": "normal",
+        "margin": -2.1818224505072683,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_040",
+        "group": "normal",
+        "margin": -2.661252862650577,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_041",
+        "group": "normal",
+        "margin": -1.397896554458519,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_042",
+        "group": "simulated",
+        "margin": 1.3477507263071344,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "capture_043",
+        "group": "simulated",
+        "margin": 1.3477507263071344,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "capture_048",
+        "group": "normal",
+        "margin": -1.374211292885692,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_049",
+        "group": "normal",
+        "margin": -0.9682268408794572,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_050",
+        "group": "normal",
+        "margin": -1.3742112928864514,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_051",
+        "group": "normal",
+        "margin": -0.6636949059013824,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_052",
+        "group": "simulated",
+        "margin": 0.7743772647045613,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "capture_053",
+        "group": "simulated",
+        "margin": 3.2212062997501594,
+        "predicted_group": "simulated_like"
+      }
+    ]
+  },
+  "imu": {
+    "model": {
+      "intercept": -0.14437139050872083,
+      "coefficients": [
+        0.6497832685694458,
+        0.773940397862071
+      ],
+      "lambda": 1.0,
+      "standardized_coefficients": [
+        -0.8033248070109896,
+        0.8233245464153791,
+        1.0369322758788566
+      ],
+      "training_mean": [
+        -4.011181951107895,
+        2.516273227105084
+      ],
+      "training_sd": [
+        1.267075633123025,
+        1.339808955241609
+      ],
+      "gradient_max_abs": 1.6464607455191071e-13,
+      "iterations": 6,
+      "fit_converged": true,
+      "label_semantics": "0 normal; 1 self-simulated action. Margin is NOT panic probability."
+    },
+    "feature_names": [
+      "accel_sd",
+      "gyro_rms"
+    ],
+    "transform": "log",
+    "capture_ids": [
+      "capture_001",
+      "capture_029",
+      "capture_030",
+      "capture_031",
+      "capture_032",
+      "capture_033",
+      "capture_034",
+      "capture_035",
+      "capture_045",
+      "capture_046",
+      "capture_047"
+    ],
+    "training_metrics": {
+      "detected_simulated": 3,
+      "missed_simulated": 0,
+      "flagged_normal": 1,
+      "unflagged_normal": 7,
+      "simulated_n": 3,
+      "normal_n": 8,
+      "simulated_recall": 1.0,
+      "normal_false_positive_fraction": 0.125
+    },
+    "loo_metrics": {
+      "detected_simulated": 2,
+      "missed_simulated": 1,
+      "flagged_normal": 1,
+      "unflagged_normal": 7,
+      "simulated_n": 3,
+      "normal_n": 8,
+      "simulated_recall": 0.6666666666666666,
+      "normal_false_positive_fraction": 0.125
+    },
+    "loo_predictions": [
+      {
+        "capture_id": "capture_001",
+        "group": "simulated",
+        "margin": 2.4512295566153086,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "capture_029",
+        "group": "normal",
+        "margin": -1.2041069374356281,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_030",
+        "group": "normal",
+        "margin": -3.6175962196277696,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_031",
+        "group": "normal",
+        "margin": 1.2338421085664855,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "capture_032",
+        "group": "normal",
+        "margin": -4.078866073428997,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_033",
+        "group": "normal",
+        "margin": -1.428725370219664,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_034",
+        "group": "normal",
+        "margin": -1.6978058584361682,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_035",
+        "group": "normal",
+        "margin": -1.1399438121441468,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_045",
+        "group": "normal",
+        "margin": -0.30934623361675306,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_046",
+        "group": "simulated",
+        "margin": -0.03718092405214479,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_047",
+        "group": "simulated",
+        "margin": 1.5223089638533818,
+        "predicted_group": "simulated_like"
+      }
+    ]
+  },
+  "ecg": {
+    "model": {
+      "intercept": -7.04501043433464,
+      "coefficients": [
+        0.08859992873389841
+      ],
+      "lambda": 1.0,
+      "standardized_coefficients": [
+        -0.4493785967297167,
+        2.3047533423728255
+      ],
+      "training_mean": [
+        74.44285714285715
+      ],
+      "training_sd": [
+        26.0130383320616
+      ],
+      "gradient_max_abs": 7.075416252888544e-08,
+      "iterations": 6,
+      "fit_converged": true,
+      "label_semantics": "0: local normal HR estimate; 1: published episode maximum; source-confounded"
+    },
+    "feature_names": [
+      "HR"
+    ],
+    "transform": "raw",
+    "capture_ids": [
+      "capture_002",
+      "capture_003",
+      "capture_004",
+      "capture_005",
+      "capture_006",
+      "capture_008",
+      "capture_009",
+      "capture_010",
+      "capture_011",
+      "capture_012",
+      "capture_013",
+      "capture_014",
+      "capture_015",
+      "capture_016",
+      "capture_017",
+      "capture_018",
+      "capture_019",
+      "capture_020",
+      "capture_021",
+      "capture_022",
+      "external_subject_4_episode_1",
+      "external_subject_4_episode_2",
+      "external_subject_5_episode_1",
+      "external_subject_6_episode_1",
+      "external_subject_7_episode_1",
+      "external_subject_8_episode_1",
+      "external_subject_9_episode_1",
+      "external_subject_10_episode_1"
+    ],
+    "training_metrics": {
+      "detected_simulated": 8,
+      "missed_simulated": 0,
+      "flagged_normal": 0,
+      "unflagged_normal": 20,
+      "simulated_n": 8,
+      "normal_n": 20,
+      "simulated_recall": 1.0,
+      "normal_false_positive_fraction": 0.0
+    },
+    "loo_metrics": {
+      "detected_simulated": 7,
+      "missed_simulated": 1,
+      "flagged_normal": 0,
+      "unflagged_normal": 20,
+      "simulated_n": 8,
+      "normal_n": 20,
+      "simulated_recall": 0.875,
+      "normal_false_positive_fraction": 0.0
+    },
+    "loo_predictions": [
+      {
+        "capture_id": "capture_002",
+        "group": "normal",
+        "margin": -1.3566417386736154,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_003",
+        "group": "normal",
+        "margin": -1.9665199627703336,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_004",
+        "group": "normal",
+        "margin": -2.110976042217618,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_005",
+        "group": "normal",
+        "margin": -1.8045504922078761,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_006",
+        "group": "normal",
+        "margin": -1.5087147627409214,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_008",
+        "group": "normal",
+        "margin": -1.696836057746725,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_009",
+        "group": "normal",
+        "margin": -2.0025880608399182,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_010",
+        "group": "normal",
+        "margin": -1.5982463659258483,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_011",
+        "group": "normal",
+        "margin": -1.6878679900525997,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_012",
+        "group": "normal",
+        "margin": -1.9394877684241312,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_013",
+        "group": "normal",
+        "margin": -0.2912442612662627,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_014",
+        "group": "normal",
+        "margin": -1.9304805328261168,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_015",
+        "group": "normal",
+        "margin": -1.4908169588990994,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_016",
+        "group": "normal",
+        "margin": -1.562424352732939,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_017",
+        "group": "normal",
+        "margin": -2.0477152956293247,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_018",
+        "group": "normal",
+        "margin": -1.840499346525819,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_019",
+        "group": "normal",
+        "margin": -1.4103023789800755,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_020",
+        "group": "normal",
+        "margin": -1.8045504922078779,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_021",
+        "group": "normal",
+        "margin": -1.9845503537417972,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "capture_022",
+        "group": "normal",
+        "margin": -1.7776039835076753,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "external_subject_4_episode_1",
+        "group": "external_episode_maximum",
+        "margin": 1.747657034339265,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "external_subject_4_episode_2",
+        "group": "external_episode_maximum",
+        "margin": 0.7753114642228436,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "external_subject_5_episode_1",
+        "group": "external_episode_maximum",
+        "margin": -0.1890855917234271,
+        "predicted_group": "normal_like"
+      },
+      {
+        "capture_id": "external_subject_6_episode_1",
+        "group": "external_episode_maximum",
+        "margin": 5.493613443619803,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "external_subject_7_episode_1",
+        "group": "external_episode_maximum",
+        "margin": 0.7753114642228436,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "external_subject_8_episode_1",
+        "group": "external_episode_maximum",
+        "margin": 3.279282851773784,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "external_subject_9_episode_1",
+        "group": "external_episode_maximum",
+        "margin": 4.352499415337812,
+        "predicted_group": "simulated_like"
+      },
+      {
+        "capture_id": "external_subject_10_episode_1",
+        "group": "external_episode_maximum",
+        "margin": 7.145944889335444,
+        "predicted_group": "simulated_like"
+      }
+    ],
+    "fitted_zero": 79.51485441363806,
+    "display_watch_range_bpm": [
+      79.51485441363806,
+      100.0
+    ],
+    "display_project_cutoff_bpm": 100.0
+  },
+  "pressure_cutoff": 34.06822609689867,
+  "motion_score": {
+    "name": "S_rest_v1",
+    "A0_g": 0.008288212278579772,
+    "G0_deg_per_s": 8.203503753066949,
+    "acceleration_exponent": 0.6497832685694458,
+    "rotation_exponent": 0.773940397862071,
+    "candidate_boundary": 5.103498081984049
+  },
+  "limitations": [
+    "Normal vs self-simulated tasks; no validated panic classifier.",
+    "Published HR maxima and local HR estimates have different sources and summary definitions.",
+    "Leave-one-capture-out is exploratory; repeated captures are not independent participants.",
+    "These offline parameters are not substituted into candidate_rules.py.",
+    "No actuator command is sent by this reproduction."
+  ]
+}
